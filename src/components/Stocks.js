@@ -6,7 +6,7 @@ import Card from "../components/Card";
 export const Stocks = () => {
   return (
     <>
-      <div className="stock-container">Welcome to Stock Tracker   .. 
+      <div className="stock-container">Welcome to Stock Tracker  wat is er aan de hand.
       {stockData.map((data, key) => {
           return (
             <Card
