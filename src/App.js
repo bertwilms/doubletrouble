@@ -1,5 +1,6 @@
 import "./App.css";
 import Card from "./components/Card";
+import { Stocks } from "./components/Stocks";
 //import food from "./assets/food.jpg";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <Stocks />
       <div className="card-header"> Wedstrijden </div>
         <Card
           id={wedstrijdItem.id}
