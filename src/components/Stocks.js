@@ -6,8 +6,7 @@ import Card from "../components/Card";
 export const Stocks = () => {
   return (
     <>
-    // https://www.pluralsight.com/guides/load-and-render-json-data-into-react-components
-      <div className="stock-container">Welcome to Stock Tracker
+      <div className="stock-container">Welcome to Stock Tracker   .. 
       {stockData.map((data, key) => {
           return (
             <Card
