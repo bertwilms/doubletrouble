@@ -29,7 +29,8 @@ function App() {
           id={wedstrijdItem.id}
           datum={wedstrijdItem.datum}
           tijd={wedstrijdItem.tijd}
-          description={wedstrijdItem.speler1}
+          speler1={wedstrijdItem.speler1}
+          speler2={wedstrijdItem.speler2}
           //liked={isLiked}
           //likeCount={like}
         />
@@ -37,7 +38,8 @@ function App() {
           id={wedstrijdItem.id}
           datum={wedstrijdItem.datum}
           tijd={wedstrijdItem.tijd}
-          description={wedstrijdItem.speler1}
+          speler1={wedstrijdItem.speler1}
+          speler2={wedstrijdItem.speler2}
           //liked={isLiked}
           //likeCount={like}
         />

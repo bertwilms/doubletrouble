@@ -16,7 +16,7 @@ export default function Card(props) {
           <div className="card-date">{props.tijd}</div>
         </div>
       </div>      
-      <div className="card-text">{props.description}</div>      
+      <div className="card-text">{props.speler1} - {props.speler2}</div>      
     </div>
   );
 }
